@@ -1,1 +1,11 @@
-# AI-Enhanced-Intrusion-Detection
+
+# AI-Enhanced Intrusion Detection System
+
+Mini Project using Flask + Machine Learning.
+
+Run:
+pip install -r requirements.txt
+python app.py
+
+Open:
+http://127.0.0.1:5000

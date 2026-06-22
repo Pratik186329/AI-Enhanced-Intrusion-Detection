@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Enhanced IDS</title>
+</head>
+<body>
+    <h2>AI-Enhanced Intrusion Detection System</h2>
+
+    <form method="POST">
+        <label>Duration:</label><br>
+        <input type="number" name="duration" required><br><br>
+
+        <label>Source Bytes:</label><br>
+        <input type="number" name="src_bytes" required><br><br>
+
+        <label>Destination Bytes:</label><br>
+        <input type="number" name="dst_bytes" required><br><br>
+
+        <button type="submit">Detect</button>
+    </form>
+
+    {% if result %}
+    <h3>Result: {{ result }}</h3>
+    {% endif %}
+</body>
+</html>
